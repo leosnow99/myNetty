@@ -1,4 +1,4 @@
-package com.leo.netty;
+package com.leo.last.netty;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
