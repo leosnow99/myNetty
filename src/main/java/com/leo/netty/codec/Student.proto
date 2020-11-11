@@ -1,0 +1,38 @@
+syntax = "proto3";
+option optimize_for = SPEED; //加快解析
+option java_package = "com.leo.netty.codec";
+option java_outer_classname = "MyDataInfo";
+
+//protobuf可以使用message管理其它message
+message MyMessage {
+  //定义美剧类型
+  enum DataType { //在proto3要求enum的标号从0开始
+    StudentType = 0;
+    WorkerType = 1;
+  }
+
+  //data_type来表示哪一个枚举类型
+  DataType data_type = 1;
+
+  oneof dataBody {
+    Student student = 2;
+    Worker worker = 3;
+  }
+
+
+}
+
+message Student{
+  int32 id = 1;
+  string name = 2;
+}
+
+message Worker {
+  string name = 1;
+  int32 age = 2;
+}
+
+
+
+
+

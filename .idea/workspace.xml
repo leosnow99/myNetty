@@ -5,46 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6780e89-1be1-4645-b149-ded5ba16d095" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/last/websocket/ChatHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/last/websocket/WSServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/last/websocket/WSServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/bio/BIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/groupChat/GroupChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/groupChat/GroupChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/groupChat/GroupChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/groupChat/GroupChatServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/groupChat/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/heartBeat/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/heartBeat/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/http/TestHttpServerHand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/http/TestServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/http/TestServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/GroupChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/GroupChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/NIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/NIOFileChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/NIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/StreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/simple/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/simple/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/simple/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/simple/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/simple/TestHttpServerHand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettyDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nettyDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/codec/MyDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/codec/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/codec/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/codec/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/codec/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/codec/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/decoder/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/protoBuf/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/protoBuf/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/protoBuf/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/protoBuf/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/protoBuf/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/protoBuf/StudentPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/websocket/MyTextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/websocket/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/websocket/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leo/netty/CustomerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leo/last/netty/CustomerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leo/netty/HelloServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leo/last/netty/HelloServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/leo/netty/HelloServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leo/last/netty/HelloServerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leo/netty/CustomerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leo/netty/HelloServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/leo/netty/HelloServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leo/netty/nio/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/leo/netty/nio/StreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/leo/netty/nio/StreamDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -89,6 +77,8 @@
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -97,12 +87,13 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/leo/netty/codec" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -110,27 +101,18 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.leo.netty.http" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProgramProject\java\demo\nettyDemo\src\main\java\com\leo\netty\codec" />
+      <recent name="D:\ProgramProject\java\demo\nettyDemo\src\main\java\com\leo\netty\protoBuf" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.MyServer">
-    <configuration name="GroupChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.netty.groupChat.GroupChatClient" />
+  <component name="RunManager" selected="应用程序.MyClient">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.netty.decoder.MyClient" />
       <module name="nettyDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leo.netty.groupChat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupChatServer" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.netty.groupChat.GroupChatServer" />
-      <module name="nettyDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leo.netty.groupChat.*" />
+          <option name="PATTERN" value="com.leo.netty.decoder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +121,24 @@
       </method>
     </configuration>
     <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.netty.heartBeat.MyServer" />
+      <option name="MAIN_CLASS_NAME" value="com.leo.netty.decoder.MyServer" />
       <module name="nettyDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leo.netty.heartBeat.*" />
+          <option name="PATTERN" value="com.leo.netty.decoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.netty.codec.NettyClient" />
+      <module name="nettyDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leo.netty.codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.netty.simple.NettyClient" />
+      <option name="MAIN_CLASS_NAME" value="com.leo.netty.protoBuf.NettyClient" />
       <module name="nettyDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leo.netty.simple.*" />
+          <option name="PATTERN" value="com.leo.netty.protoBuf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leo.netty.http.TestServer" />
+    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leo.netty.codec.NettyServer" />
       <module name="nettyDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leo.netty.http.*" />
+          <option name="PATTERN" value="com.leo.netty.codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,17 +185,17 @@
     </configuration>
     <list>
       <item itemvalue="应用程序.NettyClient" />
-      <item itemvalue="应用程序.TestServer" />
-      <item itemvalue="应用程序.GroupChatServer" />
-      <item itemvalue="应用程序.GroupChatClient" />
+      <item itemvalue="应用程序.NettyServer (1)" />
+      <item itemvalue="应用程序.NettyClient (1)" />
       <item itemvalue="应用程序.MyServer" />
+      <item itemvalue="应用程序.MyClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.GroupChatClient" />
+        <item itemvalue="应用程序.MyClient" />
         <item itemvalue="应用程序.MyServer" />
-        <item itemvalue="应用程序.GroupChatServer" />
-        <item itemvalue="应用程序.TestServer" />
+        <item itemvalue="应用程序.NettyClient (1)" />
+        <item itemvalue="应用程序.NettyServer (1)" />
         <item itemvalue="应用程序.NettyClient" />
       </list>
     </recent_temporary>
@@ -216,12 +211,25 @@
       <workItem from="1604398698543" duration="4999000" />
       <workItem from="1604537825315" duration="7121000" />
       <workItem from="1604632975069" duration="7520000" />
-      <workItem from="1604660917138" duration="23900000" />
+      <workItem from="1604660917138" duration="41072000" />
     </task>
+    <task id="LOCAL-00001" summary="--11.09">
+      <created>1604925939121</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604925939121</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="--11.09" />
+    <option name="LAST_COMMIT_MESSAGE" value="--11.09" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -237,42 +245,50 @@
     </state>
     <state x="174" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1604680362575" />
     <state x="232" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604916918149" />
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1604917999682">
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1605060404067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604917999682" />
+    <state x="765" y="223" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605060404067" />
     <state x="832" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604398731483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="832" y="435" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604398731483" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605006711346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605006711346" />
     <state x="708" y="352" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604906097670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="352" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604906097670" />
-    <state width="1877" height="474" key="GridCell.Tab.0.bottom" timestamp="1604925811349">
+    <state x="369" y="0" key="CommitChangelistDialog2" timestamp="1604925935644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="369" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604925935644" />
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom" timestamp="1605065676472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="265" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1604849664801" />
     <state width="1877" height="592" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604660818655" />
-    <state width="1877" height="474" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604925811349" />
-    <state width="1877" height="474" key="GridCell.Tab.0.center" timestamp="1604925811348">
+    <state width="1877" height="372" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605065676472" />
+    <state width="1877" height="372" key="GridCell.Tab.0.center" timestamp="1605065676472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="265" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1604849664801" />
     <state width="1877" height="592" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604660818654" />
-    <state width="1877" height="474" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604925811348" />
-    <state width="1877" height="474" key="GridCell.Tab.0.left" timestamp="1604925811348">
+    <state width="1877" height="372" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605065676472" />
+    <state width="1877" height="372" key="GridCell.Tab.0.left" timestamp="1605065676472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="265" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1604849664801" />
     <state width="1877" height="592" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604660818654" />
-    <state width="1877" height="474" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604925811348" />
-    <state width="1877" height="474" key="GridCell.Tab.0.right" timestamp="1604925811348">
+    <state width="1877" height="372" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605065676472" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right" timestamp="1605065676472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1397" height="265" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1604849664801" />
     <state width="1877" height="592" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604660818654" />
-    <state width="1877" height="474" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604925811348" />
+    <state width="1877" height="372" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605065676472" />
     <state width="1877" height="373" key="GridCell.Tab.1.bottom" timestamp="1604742727966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -297,19 +313,27 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604567086316" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1604916650670">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1605005019275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="8" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1604680354459" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604916650670" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605005019275" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1605060149346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605060149346" />
     <state x="780" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604906120429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="780" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604906120429" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604841104662">
+    <state x="728" y="420" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605060108547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604841104662" />
+    <state x="728" y="420" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1605060108547" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604997549849">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1604997549849" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
